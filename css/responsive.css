@@ -1,0 +1,52 @@
+@media only screen and (max-width: 1440px) {
+  .commands {
+    margin-top: 1.25rem;
+    margin-left: 0.3125rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .img-res {
+    display: none;
+  }
+
+  .img-res-show {
+    display: block;
+  }
+
+  .container-res {
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .container-res img {
+    margin-top: 3.125rem;
+  }
+
+  body {
+    padding: 1.875rem;
+  }
+}
+
+.topp{
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Styles for screens smaller than 768px */
+@media (max-width: 767px) {
+  /* CSS rules for mobile devices */
+}
+
+/* Styles for screens between 768px and 992px */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* CSS rules for tablets */
+}
+
+/* Styles for screens larger than 992px */
+@media (min-width: 992px) {
+  /* CSS rules for desktops */
+}
+
+

@@ -1,0 +1,462 @@
+.commands {
+  border-radius: 0.625rem;
+  -webkit-box-shadow:10px 10px 5px 0px rgba(54, 54, 54, 0.8);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(54, 54, 54, 0.8);
+  box-shadow: 10px 10px 5px 0px rgba(54, 54, 54, 0.8);
+}
+.logo {
+  transition: 3s;
+  background: transparent;
+}
+
+.img-res-show {
+  display: none;
+}
+
+.w-full {
+  width: 100%;
+}
+
+button.contact-me {
+  background-color: #00a4e4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+button.contact-me:hover {
+  background-color: #6449c6;
+}
+
+button.k{
+  background-color: #00a4e4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.image-container {
+  overflow: hidden;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.image-container:hover img {
+  transform: translateY(-10px);
+  opacity: 0.8;
+}
+
+.contact-container {
+  background-color: #000;
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+.contact-container h2 {
+  margin-top: 0;
+}
+
+.social-boxes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.social-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  transition: transform 0.3s ease;
+  width: 150px;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+.social-box:hover {
+  transform: translateY(-10px);
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.social-box i {
+  font-size: 50px;
+  margin-top: 25px;
+}
+
+.social-box span {
+  margin-top: 15px;
+}
+
+::-webkite-scrollbar{
+  width: 15p;
+}
+::-webkite-scrollbar-track{
+  background: #000000;
+}
+::-webkit-scrollbar-track {
+  background-color: #000000; 
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: #684dde;
+  border-radius: 10px; 
+}
+
+
+::-webkit-scrollbar-corner {
+  background-color: #f5f5f5; 
+}
+
+
+::-webkit-scrollbar {
+  width: 6px; 
+  height: 6px;
+  background-color: #f5f5f5; 
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background-color: #292929;
+}
+
+.contact-section2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background-color: #000000;
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+  background-color: #1c1c1c;
+  transition: all 0.3s ease;
+  border-radius: 10px; /* make the corners slightly rounder */
+}
+
+.contact-box:hover {
+  background-color: #6610f2;
+  transform: scale(1.1); /* scale up the contact box on hover */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* add a shadow effect */
+}
+
+.icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  pointer-events: none; /* Make icons unclickable */
+}
+
+.icon-box i {
+  color: #6610f2;
+  font-size: 40px;
+}
+
+h3 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 10px; /* add a margin to the account name */
+}
+
+.footer {
+  background-color: #191919;
+  color: #fff;
+  padding: 50px 0;
+  font-size: 16px;
+}
+
+.thankyou-btn {
+  background-color: #6610f2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.thankyou-btn:hover {
+  background-color: rgb(0, 123, 255);
+  transform: scale(1.1);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/*top pf the page button*/
+.back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  width: 50px;
+  height: 50px;
+  background-color: purple;
+  color: #fff;
+  border-radius: 50%;
+  padding: 0;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  line-height: 50px;
+  transition: all 0.2s ease-in-out; /* add a transition for a smooth animation */
+}
+
+.back-to-top-btn:hover {
+  background-color: rgb(0, 123, 255);
+  transform: scale(1.2); /* add a scale transformation to make the button larger */
+}
+
+.back-to-top-btn i {
+  font-size: 24px;
+  transform: rotate(-90deg);
+  display: inline-block;
+  vertical-align: middle;
+}
+/*contact me bokses*/
+#contact {
+  background-color: black;
+  color: white;
+  padding: 50px 20px;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.contact-item {
+  width: 300px;
+  height: 300px;
+  background-color: #444;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin: 20px
+}
+
+.contact-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px rgba(255,255,255,0.5);
+  background-color: rgb(128, 0, 128);
+
+}
+
+.contact-item i {
+  font-size: 72px;
+  margin-bottom: 20px;
+}
+
+.contact-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-details {
+  font-size: 18px;
+}
+
+.logo-wrapper img {
+  height: 70px;
+  border-radius: 20;
+}
+
+.button7 {
+  background-color: rgb(128, 0, 128); /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 50px; /* Make it a circle */
+  transition: all 0.3s ease-in-out; /* Add transition for smooth hover effect */
+}
+
+.button7:hover {
+  background-color: #008CBA; /* Change color on hover */
+}
+
+.button8 {
+  background-color: rgb(59, 59, 59); /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 50px; /* Make it a circle */
+  transition: all 0.3s ease-in-out; /* Add transition for smooth hover effect */
+}
+
+.button8:hover {
+  background-color: #008CBA; /* Change color on hover */
+}
+
+/*videos*/
+
+#video-container {
+  border: 5px solid rgb(128, 0, 128);
+  border-radius: 20px;
+  overflow: hidden;
+  width: 53%; /* set the width of the container */
+  margin: 0 auto; /* center the container horizontally */
+  position: relative; /* position the container relative to its parent element */
+  padding-top: 30%; /* set the height of the container based on a 16:9 aspect ratio */
+  margin-bottom: 20px;
+}
+
+#video-container iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  /* styles for screens with a maximum width of 768 pixels */
+  #video-container {
+    width: 100%; /* set the width of the container to 100% for phones */
+    padding-top: 56.25%; /* set the height of the container based on a 16:9 aspect ratio */
+  }
+}
+
+
+/*shorts*/
+
+/* 9:16 aspect ratio video container */
+.video-container-9-16 {
+  border: 5px solid #6610f2;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 23%; /* set the width of the container */
+  margin: 0 auto; /* center the container horizontally */
+  position: relative; /* position the container relative to its parent element */
+  padding-top: 40%; /* set the height of the container based on a 9:16 aspect ratio */
+  margin-bottom: 50px;
+}
+
+.video-container-9-16 iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  border: none;
+}
+
+.photo{
+  max-width: 50%;
+}
+
+@media only screen and (max-width: 1440px) {
+  .commands {
+    margin-top: 1.25rem;
+    margin-left: 0.3125rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .img-res {
+    display: none;
+  }
+
+  .img-res-show {
+    display: block;
+  }
+
+  .container-res {
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .container-res img {
+    margin-top: 3.125rem;
+  }
+
+  body {
+    padding: 1.875rem;
+  }
+}
+
+.topp{
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
